@@ -1,0 +1,31 @@
+.url {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #444C56;
+}
+
+.url__links {
+  display: flex;
+  flex-direction: column;
+}
+
+.url__short-link {
+  font-size: 22px;
+}
+
+.url__long-link {
+  margin-top: 12px;
+  color:#76818F;
+  word-wrap: break-word;
+  max-width: 900px;
+  line-height: 20px;
+}
+
+.url__views {
+  font-size: 20px;
+  
+}

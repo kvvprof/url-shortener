@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+.header--dark {
+  border-bottom: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.header--light {
+  border-bottom: 2px solid var(--dark-color);
+  transition: 0.3s;
+}
+
+.header__title {
+  font-size: 25px;
+}
+
+.header__theme-btn {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.header__theme-btn--light {
+  color: var(--dark-color);
+  background: transparent;
+  border: 2px solid var(--dark-color);
+}
+
+.header__theme-btn--dark {
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+}

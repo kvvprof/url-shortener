@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a {
+	color: inherit;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: var(--font-family);
+	font-weight: 400;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+ul li {
+	list-style: none;
+	font-style: normal;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+:root {
+	--dark-color: #2e353f;
+	--font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+a {
+	color: #BD5D59;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.wrapper--dark {
+	background-color: var(--dark-color);
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.wrapper--light {
+	background-color: #91A4AE;
+	color: #2e353f;
+	transition: 0.3s;
+}
+
+.container {
+	width: 1000px;
+}
